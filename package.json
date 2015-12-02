@@ -6,10 +6,10 @@
   "scripts": {
     "start": "electron .",
     "build": "NODE_ENV=production webpack",
+    "package": "node package.js",
     "watch": "webpack-dev-server --hot --inline"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Daichi Kimura",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -18,6 +18,7 @@
     "babel-preset-react": "^6.1.18",
     "babel-preset-stage-0": "^6.1.18",
     "css-loader": "^0.23.0",
+    "electron-packager": "^5.1.1",
     "electron-prebuilt": "^0.35.2",
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
